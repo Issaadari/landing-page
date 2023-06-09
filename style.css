@@ -5,14 +5,15 @@ body
 header, #section1
 {
     background-color: #1f2937 ;
-    margin: 0;
+    padding-left: 48px;
+    padding-right: 48px;
 }
 
 header
 {
     display: flex;
     justify-content: space-between;
-    padding: 8px;
+    padding-top: 8px;
 }
 #logo img
 {
@@ -24,7 +25,8 @@ header
 }
 #logo h2
 {
-    font-size: 24px #f9faf8;
+    font-size: 24px;
+    color : #f9faf8;
     margin-top: 0;
 }
 ul
@@ -37,23 +39,120 @@ ul
 }
 nav a
 {
-    font-size: 18px #e5e7eb;
+    font-size: 18px;
+    color: #e5e7eb;
     text-decoration: none;
 }
 #section1
 {
     display: flex;
-    justify-content: space-between;
+    align-items: space-between;
 }
-.hero 
+.hero
 {
-    margin: 24px;
+
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
-.hero h1
+#section1 h1
 {
-    font: 48px #f9faf8;
+    font: 48px;
+    color :  #f9faf8;
+    font-weight: bold;
 }
-.hero p
+#section1 p
 {
-    font-size: 18px #e5e7eb;
+    font-size: 18px;
+    color : #e5e7eb;
+}
+#section1 input
+{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border-color: #e5e7eb;
+    text-align: center;
+}
+.img
+{
+    display: flex;
+    margin-right: 24px;
+    align-items: center;
+}
+#section2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+h2
+{
+    text-align: center;
+    font-size: 36px #1f2937;
+}
+#section2 figure
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+#section3
+{
+    background-color: #E5E7EB;
+    font-size: 16px;
+    color: #1f2937;
+    font-weight: light;
+    padding: 48px;
+}
+#section3 h2
+{
+    text-align: right;
+}
+#section4
+{
+    display: flex;
+    background-color: #3882f6;
+    flex-direction: row;
+    margin: 64px;
+    border-radius: 2px;
+    color: #f9faf8;
+}
+.qote
+{
+    text-align: start;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.qote h2
+{
+    font-size: 24px;
+}
+.qote p
+{
+    font-weight: light;
+    font-size: 12px;
+    padding-bottom: 12px;
+}
+.input
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 24px;
+}
+.input, input
+{
+    width: 100px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: #e5e7eb;
+    color: #E5E7EB;
+}
+footer
+{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    text-align: center;
 }
